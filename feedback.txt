@@ -36,4 +36,4 @@ create index.blade.php
     @endsection
 go to route/web.php
     Route::view('/', 'index');
-Fi da9i9a 18:06
+Fi da9i9a 21:24
