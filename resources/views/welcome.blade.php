@@ -8,7 +8,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
+        <link href="resources/css/main.css" rel="stylesheet">
         <!-- Styles -->
         <style>
             html, body {
@@ -80,7 +80,7 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
+                <div class="title m-b-md bg-blue-500">
                     Laravel
                 </div>
 
