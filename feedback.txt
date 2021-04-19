@@ -1,0 +1,39 @@
+Video 1
+Create new project using the command "composer create-project laravel/laravel=7.0 app_movie --prefer-dist"
+run: composer install
+run: npm install
+install tailwindcss "npm install tailwindcss"
+create a folder in resource named css and file named main.css and write this code here :
+            @tailwind base;
+            @tailwind components;
+            @tailwind utilities;
+Copy this in webpack.mix.js
+            mix.js("resources/js/app.js", "public/js")
+    .postCss("resources/css/app.css", "public/css", [
+     require("tailwindcss"),
+    ]);
+npm install tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
+npx tailwindcss init
+run: npm run dev
+create layout/main.blade.php
+    <!doctype html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Movie APP</title>
+            <link href="resources/css/main.css" rel="stylesheet">
+        </head>
+        <body>
+            <nav>Nav goes here</nav>
+            @yield('content')
+        </body>
+    </html>
+create index.blade.php
+    @extends('layout.main')
+    @section('content')
+        <div>Index of movies</div>
+    @endsection
+go to route/web.php
+    Route::view('/', 'index');
+Fi da9i9a 18:06
