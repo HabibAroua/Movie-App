@@ -20,7 +20,6 @@
                 <p class="text-gray-300 mt-8">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium ab recusandae quam mollitia necessitatibus. Cupiditate ea quos pariatur at explicabo, soluta sunt nostrum et iste delectus tempora, quidem fugiat laborum debitis voluptatem nobis ex officiis error nesciunt fuga corrupti. Vitae tempore ipsam delectus iusto accusamus reiciendis distinctio labore odio molestiae!
                 </p>
-
                 <div class="mt-12">
                     <h4 class="text-white font-semibold">Featured Crew</h4>
                     <div class="flex mt-4">
